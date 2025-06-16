@@ -1,7 +1,7 @@
 import { v2 as cloudinary } from "cloudinary";
 import BlogModel from "../models/blogModel.js";
 
-const allowedCategories = ['Technology', 'Startup', 'Lifestyle', 'General'];
+const allowedCategories = ['Technology', 'Startup', 'Lifestyle', 'News and Updates'];
 
 // Create a blog
 const createBlog = async (req, res) => {
